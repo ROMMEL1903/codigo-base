@@ -27,4 +27,8 @@ public class Prueba {
 	public int sumaNumeros() {
 		return this.num1 + this.num2;
 	}
+	
+	public int restaNumeros() {
+		return this.num1 - this.num2;
+	}
 }

@@ -17,5 +17,10 @@ public class PruebaTest {
 	public void sumaNumeros() {
 		assertEquals(10, this.p1.sumaNumeros());
 	}
+	
+	@Test
+	public void restaNumeros() {
+		assertEquals(4, this.p1.restaNumeros());
+	}
 
 }
